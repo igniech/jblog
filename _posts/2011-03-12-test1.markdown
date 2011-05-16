@@ -1,2 +1,15 @@
-Wtam i o drogÄ™ pytam.
-Ho hoo to ja wesoÅ‚y Romek i mam swÃ³j domek.
+---
+layout: post
+title:  Test1
+---
+
+
+
+# {{ page.title }}
+## No mówiê test 1.
+
+Witam i o drogê pyta.
+Jestem weso³y Romek i mam swój domek.
+
+
+Jestem Rosó³ z Miko³ajka i innych ch³opaków

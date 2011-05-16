@@ -1,30 +1,80 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
+<!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl-pl">
 <head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>{{ page.title }}</title>
-   <meta name="author" content="Iwonka" />
-   <link href="http://inf.ug.edu.pl/~igniech/atom.xml" rel="alternate" 
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />	
+	<title>{{ page.title }}</title>
+	<link href="http://inf.ug.edu.pl/~igniech/atom.xml" rel="alternate" 
          title="Iwonka" type="application/atom+xml" />
-
-   <link rel="stylesheet" href="../../../../css/syntax.css" type="text/css" />
-   <link rel="stylesheet" href="../../../../css/screen.css" type="text/css" media="screen, projection" />
-   <link rel="stylesheet" href="../../../../css/blog.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="../../../../css/style.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="../../../../css/print.css" type="text/css"  media="print" />
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
 
-<div class="site span-21"><!--  showgrid -->
-
-  <div class="title span-21">
-    <img class="prepend-1" src="../../../../images/logo.png" alt="[logo]" />
-    <a class="append-7" href="/~igniech/">home</a>
-  </div>
-  
+	<header>
+		<h1>Iwonka Blog</h1>
+	</header>
+	<nav>
+		<ul>
+			<li class="selected"><a href="#">Home</a></li>
+			 <li><a href="#">galeria</a></li>
+	                <li><a href="#">blog</a></li>
+			<li><a href="#">cuda</a></li>
+		</ul>
+	</nav>
+	<section id="intro">
+		<header>
+			<h2>Cudowny Blog Iwonki</h2>
+		</header>
+		<p>To bêdzie mój fantastyczny blog. Zapraszam do czytania!</p>
+		<img src="../../../../images/introimage.png" alt="lime" />
+	</section>
+ 	 
   {{ content }}
 
-</div>
 
+
+<aside>
+			<section>
+				<header>
+					<h3>Sentencje</h3>
+				</header>
+				<ul>
+					<li><a href="#">Szczêœcie</a></li>
+					<li><a href="#">Lemons</a></li>
+					<li><a href="#">Grapefruit</a></li>
+					<li><a href="#">Kiwi</a></li>
+					<li><a href="#">Other Citrus Fruit</a></li>
+				</ul>
+			</section>
+			
+			<section>
+				<header>
+					<h3>Owocki</h3>
+				</header>
+					<img src="images/ad125.jpg" alt="ad" /> <img src="images/ad125.jpg" alt="ad" />
+					<br />
+					<img src="images/ad125.jpg" alt="ad" /> <img src="images/ad125.jpg" alt="ad" />
+					<br /><br />
+			</section>
+			
+			<section>
+				<header>
+					<h3>Ulubione</h3>
+				</header>
+				<ul>
+					<li><a href="#">Twitter</a></li>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Google Buzz</a></li>
+				</ul>
+			</section>
+		
+		</aside>
+
+	<footer>
+		<br />
+		<p>&copy; 2011 <a href="#" title="Iwonka Blog">Iwonka</a></p>
+	</footer>
+<!-- Free template created by http://freehtml5templates.com -->
 </body>
-</html>
+</html>>

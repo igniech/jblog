@@ -6,7 +6,7 @@ title: Kolejny wpis testowy :)
 
 
 # {{ page.title }}
-## Nag¿ówek
+## Podtytu³
 
 
 <pre>
@@ -20,7 +20,8 @@ end
 
 </pre>
 
-Czy te¿ dam rad¿ pokolorow¿?
+Czy te¿ dam radê pokolorowaæ?
+Rany co jest z tym kodowaniem do jasnej...
 
 {% highlight ruby %}
 one two
@@ -28,6 +29,6 @@ one two
 five
 {% endhighlight %}
 
-A to sobie podaruj¿..
+A to sobie podarujê..
 
 Dobranoc
