@@ -44,13 +44,22 @@ img.alignright {
 
 /* Hx tags */
 
+header h1 {
+	color: #020202;
+	font-style: italic;
+	text-align: left;
+	font-size: 30px;
+	padding: 20px 0;
+	}
+
 h1 {
-	font-size: 28px;
+	font-size: 26px;
 	padding: 20px 0;
 	}
 
 h2 {
-	font-size: 22px;
+	font-style: italic;
+	font-size: 24px;
 	padding: 20px 0;
 	}
 
@@ -112,6 +121,30 @@ nav ul li.subscribe a {
 	background: url("images/rss.png") left center no-repeat;
 	}
 
+#posts {
+	color: #4F7E12;
+	}
+
+#posts li article {
+	color: black;
+	}
+
+#posts li a:link {
+	color: #32183D;
+	text-decoration: underline;
+	cursor: auto;
+	}
+
+#posts li a:visited {
+	color: #4F7E12;
+	text-decoration: underline;
+	cursor: auto;
+	}
+
+#posts li a:hover {
+	color: #CBEE2E;
+	text-decoration: underline;	
+	}
 
 
 /* intro */
@@ -184,38 +217,7 @@ aside {
 	padding:0;
 	}
 
-/* article */
-.articlecontent header p, .blogPost header p a {
-	font-size: 14px;
-	font-style: italic;
-	color: #777;
-	}
 
-.articlecontent p a {
-	color: #4F7E12;
-	}
-	
-.articlecontent p a:hover {
-	color: #000;
-	}
-	
-.articlecontent header p a:hover {
-	text-decoration: none;
-	color: #000;
-	}
-	
-/* multiple columns */
-.articlecontent div {
-	-moz-column-count: 2;
-	-webkit-column-count: 2;
-	-moz-column-gap: 20px;
-	-webkit-column-gap: 20px;
-	}
-	
-/* box shadow on pics */
-.articlecontent img {
-	-webkit-box-shadow: 3px 3px 7px #777;
-	}
 
 /* sidebar */
 aside section {
@@ -235,18 +237,25 @@ aside section ul {
 	
 aside section ul li a {
 	display: block;
-	text-decoration: none;
-	color: #000;
+	text-decoration: underline;
+	color: #32183D;
 	}
-		
+
+aside sectio li a:visited {
+	color: #4F7E12;
+	text-decoration: underline;
+	cursor: auto;
+	}
+	
 aside section ul li a:hover {
 	text-decoration: underline;
+	color: #CBEE2E
 	}
 
 /* footer */
 footer {
 	clear: both;
-	background: #303324;
+	background: #020202;
 	width: 960px;
 	color: #fff;
 	margin-bottom: 10px;

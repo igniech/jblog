@@ -4,7 +4,6 @@ title: Owocowa Galeria
 ---
 
 # {{ page.title }}
-## Wersja 1
 
 Wybieram zdjęcia i wstawiam je na stronę:
 
