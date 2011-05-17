@@ -1,0 +1,35 @@
+/* galeria */
+#galeria {
+  padding:0; 
+  margin-left: 150px; 
+  list-style-type:none; 
+  overflow:hidden; 
+  width:320px; 
+  height:545px; 
+  border:1px solid #72677C; 
+  background:#fff url(images/d10.jpg);
+  }
+#galeria li {
+  float:left;
+  }
+#galeria li a {
+  display:block; 
+  height:50px;
+  width:320px; 
+  float:left; 
+  text-decoration:none; 
+  border-bottom:1px solid #fff; 
+  cursor:default;
+  }
+#galeria li a img {
+  width:320px; 
+  height:50px; 
+  border:0;
+  }
+#galeria li a:hover {
+  background:#eee; 
+  height:239px;
+  }
+#galeria li a:hover img {
+  height:239px;
+  }

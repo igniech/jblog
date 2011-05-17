@@ -6,10 +6,10 @@ title:  Test1
 
 
 # {{ page.title }}
-## No mówiê test 1.
+## No mÃ³wiÄ™ test 1.
 
-Witam i o drogê pyta.
-Jestem weso³y Romek i mam swój domek.
+Witam i o drogÄ™ pytam
+Jestem wesoÅ‚y Romek i mam swÃ³j domek.
 
 
-Jestem Rosó³ z Miko³ajka i innych ch³opaków
+Jestem rosÃ³Å‚ z MikoÅ‚ajka i innych chÅ‚opakÃ³w.

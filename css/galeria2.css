@@ -1,0 +1,15 @@
+/* galeria */
+
+#galeria li {
+  float:left;
+  }
+#galeria li a {
+  display:block; 
+  height:50px;
+  width:320px; 
+  float:left; 
+  text-decoration:none; 
+  border-bottom:1px solid #fff; 
+  cursor:default;
+  }
+

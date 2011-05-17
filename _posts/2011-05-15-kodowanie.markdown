@@ -4,8 +4,8 @@ title: Kodowanie
 ---
 
 # {{page.title}}
-## No to jedziemy, trzêsienie ziemi.
+## No to jedziemy, trzÄ™sienie ziemi.
 
-Bla bl¹ b¹dŸ
+Bla blÄ™ blÄ™
 
->To bêdzie mój fantastyczny blog. Zapraszam do czytania!Bla B¹dŸ brzdz¹æ
+TO bÄ™dzie fantazjastyczny blÄ…g.
